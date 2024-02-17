@@ -23,7 +23,7 @@ gh repo clone Gloomcaller/freeCodeCamp-Projects
 
 ## Credits
 
-- Special thanks to freeCodeCamp for making learning to code a little easyer day by day.
+- Special thanks to freeCodeCamp for making learning to code a little easier day by day.
 
 ## Contact
 
