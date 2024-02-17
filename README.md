@@ -1,5 +1,30 @@
 # freeCodeCamp-Projects
-I'm doing the freeCodeCamps curriculum and posting the projects from it.
-I'll be updating the README file as I upload projects in the future.
 
-First project is a simple HTML5 project ment to cover the basics before jumping to CSS. 17th Feb 2024.
+I'm doing the freeCodeCamps curriculum and posting the projects from it.
+I'll be updating the README as I progress through the curriculum.
+
+## Table of Contents
+
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Credits](#credits)
+- [Contact](#contact)
+
+## Technologies Used
+- HTML
+
+## Installation
+To run these projects locally, follow these steps:
+
+Clone the repository:
+https://github.com/Gloomcaller/freeCodeCamp-Projects.git
+Or use the GitHub CLI
+gh repo clone Gloomcaller/freeCodeCamp-Projects
+
+## Credits
+
+- Special thanks to freeCodeCamp for making learning to code a little easyer day by day.
+
+## Contact
+
+For inquiries or feedback, contact me via github --> github.com/Gloomcaller. 
