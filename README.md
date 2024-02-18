@@ -12,6 +12,7 @@ I'll be updating the README as I progress through the curriculum.
 
 ## Technologies Used
 - HTML
+- CSS
 
 ## Installation
 To run these projects locally, follow these steps:
