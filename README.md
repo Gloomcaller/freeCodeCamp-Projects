@@ -15,12 +15,8 @@ I'll be updating the README as I progress through the curriculum.
 - CSS
 
 ## Installation
-To run these projects locally, follow these steps:
 
-Clone the repository:
-https://github.com/Gloomcaller/freeCodeCamp-Projects.git
-Or use the GitHub CLI
-gh repo clone Gloomcaller/freeCodeCamp-Projects
+To run these projects locally just clone the repository.
 
 ## Credits
 
