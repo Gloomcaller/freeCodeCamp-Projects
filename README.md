@@ -12,6 +12,7 @@ The projects in this repository utilize the following technologies:
 
 - HTML
 - CSS
+- JS
 
 ## Installation
 
