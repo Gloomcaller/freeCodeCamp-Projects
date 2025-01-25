@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">We value your feedback! Please fill out the survey below.</p>
+  </header>
+
+  <main>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+          <label id="name-label" for="name">Full Name</label><br>
+          <input id="name" type="text" required placeholder="Enter your name">
+        </div>
+        <div>
+          <label id="email-label" for="email">Email Address</label><br>
+          <input id="email" type="email" required placeholder="Enter your email">
+        </div>
+        <div>
+          <label id="number-label" for="number">Age (1-5)</label><br>
+          <input id="number" type="number" min="1" max="5" placeholder="Enter a number">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Survey Questions</legend>
+        <div>
+          <label for="dropdown">Select an Option</label><br>
+          <select id="dropdown" required>
+            <option value="" disabled selected>Select an option</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+          </select>
+        </div>
+        <div>
+          <p>Choose a Preference</p>
+          <label><input type="radio" value="1" name="preference" required> Radio 1</label><br>
+          <label><input type="radio" value="2" name="preference"> Radio 2</label>
+        </div>
+        <div>
+          <p>Select Your Interests</p>
+          <label><input type="checkbox" value="1" name="interests"> Checkbox 1</label><br>
+          <label><input type="checkbox" value="2" name="interests"> Checkbox 2</label>
+        </div>
+        <div>
+          <label for="message">Additional Comments</label><br>
+          <textarea id="message" placeholder="Enter your comments"></textarea>
+        </div>
+      </fieldset>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Thank you for participating in our survey!</p>
+  </footer>
+</body>
+
+</html>
