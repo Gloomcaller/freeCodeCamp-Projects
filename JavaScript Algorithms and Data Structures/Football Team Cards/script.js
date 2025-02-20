@@ -201,8 +201,9 @@ playersDropdownList.addEventListener("change", (e) => {
 
 
     switch (e.target.value) {
-        case ("nickname"):
-    }
+        case "nickname":
+            setPlayerCards(players.filter((player) => player.nickname !== null));
 
+    }
 
 });
