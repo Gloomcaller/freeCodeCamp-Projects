@@ -4,7 +4,7 @@ const result = document.getElementById("result");
 
 const checkUserInput = () => {
     if (!numberInput.value || parseInt(numberInput.value)) {
-
+        
     }
 
     console.log(numberInput.value);
