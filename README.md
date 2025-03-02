@@ -65,6 +65,17 @@ If you don’t want to clone the repository, you can download it as a ZIP file:
 - The projects are based on the assignments and certifications from the freeCodeCamp curriculum.
 - While these solutions represent my personal approach and instructions from the freeCodeCamp guides, I encourage others to try solving the challenges themselves to develop their skills.
 
+## Certifications
+
+Below are the certifications I have earned from freeCodeCamp:
+
+- [Foundational C# with Microsoft](https://www.freecodecamp.org/certification/Gloomcaller/foundational-c-sharp-with-microsoft)
+- [Responsive Web Design](https://www.freecodecamp.org/certification/Gloomcaller/responsive-web-design)
+
+More certifications will be added as I complete them.
+
+Also, the code for the Foundational C# certification can be found in my [Foundational-CSharp](https://github.com/Gloomcaller/Foundational-CSharp) repository since I wanted to keep it separated.
+
 ## License
 
 This repository is licensed under the MIT License. See the `LICENSE` file for more details.
