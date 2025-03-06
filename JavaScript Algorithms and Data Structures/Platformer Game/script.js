@@ -81,6 +81,19 @@ const keys = {
     }
 };
 
+const movePlayer = (key, xVelocity, isPressed) => {
+    if (!isCheckpointCollisionDetectionActive) {
+        player.velocity.x = 0;
+        player.velocity.y = 0;
+        return;
+    }
+
+    switch (key) {
+        case "ArrowLeft":
+
+    }
+}
+
 const startGame = () => {
     canvas.style.display = "block";
     startScreen.style.display = "none";
