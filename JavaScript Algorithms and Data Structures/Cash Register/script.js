@@ -28,7 +28,7 @@ const purchaseBtn = document.getElementById("purchase-btn");
 const changeDueElement = document.getElementById("change-due");
 
 purchaseBtn.addEventListener("click", () => {
-    const cashProvided = parseFloat(cashInput.value) * 100; // in cents
+    const cashProvided = parseFloat(cashInput.value) * 100;
     const priceInCents = price * 100;
     const changeDue = cashProvided - priceInCents;
 
