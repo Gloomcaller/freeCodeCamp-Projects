@@ -71,6 +71,7 @@ Below are the certifications I have earned from freeCodeCamp:
 
 - [Foundational C# with Microsoft](https://www.freecodecamp.org/certification/Gloomcaller/foundational-c-sharp-with-microsoft)
 - [Responsive Web Design](https://www.freecodecamp.org/certification/Gloomcaller/responsive-web-design)
+- [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/Gloomcaller/javascript-algorithms-and-data-structures-v8)
 
 More certifications will be added as I complete them.
 
