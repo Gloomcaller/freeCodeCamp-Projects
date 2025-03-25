@@ -2,6 +2,15 @@
 
 Welcome to my repository for projects completed as part of the freeCodeCamp curriculum. This repository showcases various projects that highlight the skills and concepts I’ve learned throughout the program.
 
+## Recent Upadte to freeCodeCamp !
+
+All of the most recent certificates have been moved to the "archived coursework" section.
+The team at freeCodeCamp is working on making their **Certified Full Stack Developer Curriculum** certification course.
+I will be updating all of the sections as I work through this new and updated course since it's a combination of the first 7 or 8 courses currently.
+If possible, I will try to do both the Full Stack course and the separate related certifications just so I can have them.
+Much of the progress is already done for the current Full Stack course, for example I have 949 tasks finished out of 1155 in the new course without touching the CSS in it.
+FCC have stated softly that the Full Stack course should be done in "coming months" so we can expect it this year, but nothing is set in stone for now.
+
 ## Purpose
 
 The primary objective of this repository is to:
@@ -20,6 +29,7 @@ Each project in this repository corresponds to a certification or module from th
 - **Front End Development Libraries**: In progress.
 - **Relational Databases**: In progress.
 - **Backend Development and APIs**: In progress.
+- **Certified Full Stack Developer Curriculum**: In progress.
 
 Each folder contains:
 
