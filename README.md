@@ -2,7 +2,7 @@
 
 Welcome to my repository for projects completed as part of the freeCodeCamp curriculum. This repository showcases various projects that highlight the skills and concepts I’ve learned throughout the program.
 
-## Recent Upadte to freeCodeCamp !
+## Recent Update to freeCodeCamp !
 
 All of the most recent certificates have been moved to the "archived coursework" section.
 The team at freeCodeCamp is working on making their **Certified Full Stack Developer Curriculum** certification course.
