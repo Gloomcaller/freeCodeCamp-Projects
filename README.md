@@ -40,7 +40,7 @@ Each folder contains:
 
 The projects in this repository utilize a range of technologies, including but not limited to:
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: HTML, CSS, JavaScript.
 - **Backend**: In progress.
 - **Data Visualization**: In progress.
 
