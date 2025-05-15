@@ -25,6 +25,8 @@ h1 {
 .todo-list {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .todo-list li {
