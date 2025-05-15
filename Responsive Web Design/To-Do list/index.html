@@ -4,12 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Git setup checklist for new machines">
     <link rel="stylesheet" href="styles.css">
-    <title>Styled To-Do List</title>
+    <title>Git Setup To-Do List</title>
 </head>
 
 <body>
+    <div class="todo-container">
+        <h1>Git Setup To-Do List</h1>
 
+        <p class="intro-text">This is a list of things I like to setup on every machine that needs to use Git.
+            While I believe every machine should have Git, sometimes other version control systems are used.</p>
+
+        <p class="intro-text">Below are my top 4 essential Git tools to install:</p>
+
+        <ul class="todo-list">
+            <li>
+                <input type="checkbox" id="git-website">
+                <label for="git-website">Install Git</label>
+                <ul class="sub-item">
+                    <li>
+                        <a href="https://git-scm.com/" class="sub-item-link" target="_blank" rel="noopener noreferrer">
+                            Download from official Git website
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="github-account">
+                <label for="github-account">Set up GitHub account</label>
+                <ul class="sub-item">
+                    <li>
+                        <a href="https://github.com/" class="sub-item-link" target="_blank" rel="noopener noreferrer">
+                            Create or login to GitHub account
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="github-desktop">
+                <label for="github-desktop">Install GitHub Desktop (optional)</label>
+                <ul class="sub-item">
+                    <li>
+                        <a href="https://desktop.github.com/" class="sub-item-link" target="_blank"
+                            rel="noopener noreferrer">
+                            Download GitHub Desktop client
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="gitlab-account">
+                <label for="gitlab-account">Set up GitLab account (if needed)</label>
+                <ul class="sub-item">
+                    <li>
+                        <a href="https://about.gitlab.com/" class="sub-item-link" target="_blank"
+                            rel="noopener noreferrer">
+                            Create or login to GitLab account
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>
