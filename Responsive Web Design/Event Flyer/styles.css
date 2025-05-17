@@ -4,11 +4,20 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.5;
     color: #333333;
-    background-color: white;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
     margin: 0 auto;
+    border: #333333 0.2rem solid;
+    background: linear-gradient(to bottom left,
+            #fff0f0,
+            #fff4e6,
+            #ffffe6,
+            #e6ffe6,
+            #e6f3ff,
+            #f0e6ff,
+            #fce6ff);
+    background-attachment: fixed;
 }
 
 h1 {
@@ -21,29 +30,48 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
-p {
-    font-size: 1.5rem;
+li {
+    font-size: 1.2rem;
 }
 
 img {
-    max-width: 90%;
+    width: 80%;
+    max-width: 800px;
     height: auto;
-    align-content: center;
+    margin: 1rem auto;
+    display: block;
 }
 
-ul li {
+ul li,
+ol li {
+    vertical-align: top;
     display: inline-block;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
-section {
-    width: 30%;
+section ul li,
+section ol li {
+    border-bottom: #333333 0.1rem solid;
 }
 
-main section {
+section ul li:last-child,
+section ol li:last-child {
+    border-bottom: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section {
+    width: 30%;
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 1rem;
@@ -52,9 +80,6 @@ main section {
 }
 
 hr {
-    width: 100%;
-}
-
-footer {
-    margin-top: 1rem;
+    width: 90%;
+    margin: auto;
 }
