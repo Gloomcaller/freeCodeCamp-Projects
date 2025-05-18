@@ -1,0 +1,57 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    width: 50vw;
+    align-content: center;
+    background-color: lightgray;
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.container {
+    border: 0.1rem black solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+    border-color: green;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+input:focus,
+textarea:focus {
+    border-color: lightskyblue;
+}
+
+.radio-group input[type="radio"]:checked {
+    border-color: green;
+    background-color: greenyellow;
+    box-shadow: 2px 1px 1px gray;
+}
+
+input[type="radio"]:checked+label {
+    color: green;
+    border-color: green;
+}
+
+input:first-of-type {
+    border-radius: 0.1rem;
+}
