@@ -1,10 +1,13 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5rem;
-    width: 50vw;
-    align-content: center;
+    min-height: 80vh;
     background-color: lightgray;
     padding: 3rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -12,12 +15,19 @@ h1 {
 }
 
 .container {
-    border: 0.1rem black solid;
+    border: 0.2rem black solid;
     border-radius: 0.5rem;
     padding: 0.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 80%;
 }
 
 input:invalid,
@@ -33,6 +43,7 @@ textarea:valid {
 }
 
 button:hover {
+    border-color: black;
     background-color: greenyellow;
 }
 
@@ -54,4 +65,22 @@ input[type="radio"]:checked+label {
 
 input:first-of-type {
     border-radius: 0.1rem;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea,
+button {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
