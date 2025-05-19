@@ -5,14 +5,27 @@
     --diamonds: "♦";
 }
 
-#playing-cards {
+body {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: brown;
+}
+
+#playing-cards {
+    display: grid;
+    grid-template-columns: repeat(13, 63.5px);
+    grid-gap: 10px;
+    padding: 20px;
+    background: green;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
 .card {
+    background: whitesmoke;
     display: flex;
     justify-content: space-between;
     align-self: flex-start;
@@ -28,25 +41,35 @@
 
 .card.hearts,
 .card.diamonds {
-    color: var(--card-color-red);
+    color: red;
 }
 
 .card.clubs,
 .card.spades {
-    color: var(--card-color-black);
+    color: black;
 }
 
 .left {
     align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
 }
 
 .middle {
     align-self: center;
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right {
     align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
     transform: rotate(180deg);
 }
 
