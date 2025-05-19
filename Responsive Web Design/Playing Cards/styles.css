@@ -4,3 +4,31 @@
     --spades: ♠;
     --diamonds: ♦;
 }
+
+#playing-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 63.5px;
+    height: 88.9px;
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.middle {
+    align-self: center;
+    flex-direction: column;
+}
+
+.right {
+    align-self: flex-end;
+}
