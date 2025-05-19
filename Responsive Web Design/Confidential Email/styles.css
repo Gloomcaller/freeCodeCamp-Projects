@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+#email {
+    background-color: papayawhip;
+    box-sizing: border-box;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: cursive;
+    position: relative;
+}
+
+#confidential,
+#top-secret {
+    color: red;
+    position: absolute;
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+#confidential {
+    display: inline-block;
+    font-size: 2.5rem;
+    transform: rotate(20deg);
+    right: 40px;
+    top: 70px;
+}
+
+#top-secret {
+    display: inline-block;
+    font-size: 2rem;
+    transform: rotate(-20deg);
+    right: 70px;
+    bottom: 80px;
+}
+
+.blurred {
+    filter: blur(3px);
+}
+
+.ps {
+    font-style: italic;
+    border-top: 2px dashed black;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.footer {
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 30px;
+    color: gray;
+}
+
+.burn {
+    text-align: right;
+    font-style: italic;
+    color: red;
+}
