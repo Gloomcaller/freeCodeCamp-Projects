@@ -1,8 +1,8 @@
 :root {
-    --clubs: ♣;
-    --hearts: ♥;
-    --spades: ♠;
-    --diamonds: ♦;
+    --clubs: "♣";
+    --hearts: "♥";
+    --spades: "♠";
+    --diamonds: "♦";
 }
 
 #playing-cards {
@@ -18,6 +18,22 @@
     align-self: flex-start;
     width: 63.5px;
     height: 88.9px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.card.hearts,
+.card.diamonds {
+    color: var(--card-color-red);
+}
+
+.card.clubs,
+.card.spades {
+    color: var(--card-color-black);
 }
 
 .left {
@@ -31,4 +47,25 @@
 
 .right {
     align-self: flex-end;
+    transform: rotate(180deg);
+}
+
+.card.clubs .suit:after {
+    content: var(--clubs);
+}
+
+.card.hearts .suit:after {
+    content: var(--hearts);
+}
+
+.card.spades .suit:after {
+    content: var(--spades);
+}
+
+.card.diamonds .suit:after {
+    content: var(--diamonds);
+}
+
+.middle .suit:after {
+    font-size: 1.5em;
 }
