@@ -20,6 +20,7 @@ body {
 #confidential,
 #top-secret {
     color: red;
+    display: inline-block;
     position: absolute;
     padding: 10px;
     margin-left: 10px;
@@ -28,7 +29,6 @@ body {
 }
 
 #confidential {
-    display: inline-block;
     font-size: 2.5rem;
     transform: rotate(20deg);
     right: 40px;
@@ -36,7 +36,6 @@ body {
 }
 
 #top-secret {
-    display: inline-block;
     font-size: 2rem;
     transform: rotate(-20deg);
     right: 70px;
