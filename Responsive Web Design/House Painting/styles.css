@@ -1,16 +1,41 @@
 body {
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #87CEEB 50%, #556B2F 50%);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#sky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(to bottom, #1e90ff, #87CEEB);
+    z-index: -3;
+}
+
+#ground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(to bottom, #6B8E23, #556B2F);
+    z-index: -3;
 }
 
 #house {
     position: relative;
     width: 500px;
     height: 400px;
-    background-color: orange;
-    border: 2px solid grey;
+    background-color: #FFA500;
+    border: 3px solid #333;
+    z-index: 1;
 }
 
 #house * {
@@ -20,47 +45,117 @@ body {
 #chimney {
     width: 50px;
     height: 100px;
-    border: 1px solid black;
-    background-color: orange;
+    background-color: #8B4513;
+    border: 2px solid #333;
     top: -100px;
-    left: 50px;
+    left: 70px;
     z-index: -1;
 }
 
 #roof {
-    width: 500px;
-    height: 150px;
-    border: 1px solid black;
-    background-color: brown;
+    width: 540px;
+    height: 160px;
+    background: #8B4513;
+    border: 3px solid #333;
     top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20px);
+    z-index: 2;
 }
 
-#window-1 {
-    width: 100px;
-    height: 80px;
-    border: 1px solid black;
-    background-color: skyblue;
-    bottom: 20%;
-    left: 10%;
-}
-
-
+#window-1,
 #window-2 {
     width: 100px;
     height: 80px;
-    border: 1px solid black;
-    background-color: skyblue;
-    bottom: 20%;
+    border: 3px solid #333;
+    background-color: #ADD8E6;
+    bottom: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#window-1 {
+    left: 10%;
+}
+
+#window-2 {
     right: 10%;
 }
 
+.window-pane {
+    width: 0%;
+    height: 100%;
+    border: 1.5px solid #333;
+    box-sizing: border-box;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #door {
     width: 100px;
-    height: 140px;
-    border: 1px solid black;
-    background-color: whitesmoke;
+    height: 160px;
+    background: whitesmoke;
+    border: 3px solid #333;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 3;
+}
+
+.door-knob {
+    width: 10px;
+    height: 10px;
+    background-color: #FFD700;
+    border: 1px solid #333;
+    border-radius: 50%;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.matt {
+    width: 120px;
+    height: 30px;
+    background: brown;
+    border: 2px solid #333;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    border-radius: 5px;
+}
+
+.sun {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #FFD700, #FFA500);
+    border-radius: 50%;
+    top: 50px;
+    right: 100px;
+    box-shadow: 0 0 50px #FFD700;
+    z-index: -2;
+}
+
+.cloud {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.cloud1 {
+    width: 100px;
+    height: 60px;
+    top: 80px;
+    left: 100px;
+}
+
+.cloud2 {
+    width: 150px;
+    height: 80px;
+    top: 120px;
+    right: 150px;
 }
