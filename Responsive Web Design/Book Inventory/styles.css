@@ -1,43 +1,86 @@
-.table-head {
-    background-image: linear-gradient(white, orange);
+[class="table-head"] {
+    background-image: linear-gradient(#f8f9fa, #ffa500);
 }
 
-.read {
-    background-image: linear-gradient(white, green);
+tr[class="read"] {
+    background-image: linear-gradient(#ffffff, #d4edda);
 }
 
-.in-progress {
-    background-image: linear-gradient(white, yellow);
+tr[class="to-read"] {
+    background-image: linear-gradient(#ffffff, #f8d7da);
 }
 
-.to-read {
-    background-image: linear-gradient(white, red);
+tr[class="in-progress"] {
+    background-image: linear-gradient(#ffffff, #fff3cd);
 }
 
-span {
+tr[class="read"] [class="status"] {
+    border: 2px solid #28a745;
+    background-image: linear-gradient(to bottom, #d4edda, #c3e6cb);
+}
+
+tr[class="to-read"] [class="status"] {
+    border: 2px solid #dc3545;
+    background-image: linear-gradient(to bottom, #f8d7da, #f5c6cb);
+}
+
+tr[class="in-progress"] [class="status"] {
+    border: 2px solid #ffc107;
+    background-image: linear-gradient(to bottom, #fff3cd, #ffeeba);
+}
+
+[class="status"],
+[class^="rate"],
+[class*=" rate"] {
+    height: 20px;
+    width: auto;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+[class^="rate"]>span,
+[class*=" rate"]>span {
+    border: 1px solid #6c757d;
+    border-radius: 50%;
+    margin: 0 2px;
+    height: 15px;
+    width: 15px;
+    background-color: #e9ecef;
     display: inline-block;
 }
 
-.read .status {
-    border: 0.1em solid green;
-    background-image: lightgreen;
+[class*="one"]>span:nth-child(1) {
+    background-image: linear-gradient(to bottom, #ffc107, #fd7e14);
 }
 
-.in-progress .status {
-    border: 0.1em solid yellow;
-    background-image: lightyellow;
+[class*="two"]>span:nth-child(1),
+[class*="two"]>span:nth-child(2) {
+    background-image: linear-gradient(to bottom, #ffc107, #fd7e14);
 }
 
-.to-read .status {
-    border: 0.1em solid red;
-    background-image: pink;
+[class*="three"]>span {
+    background-image: linear-gradient(to bottom, #ffc107, #fd7e14);
 }
 
-.rate span {
-    border: 0.1em solid gray;
-    border-radius: 50%;
-    margin: 0;
-    height: 50%;
-    width: 0;
-    background-color: orange;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
 }
