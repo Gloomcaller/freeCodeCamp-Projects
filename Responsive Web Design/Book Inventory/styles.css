@@ -1,0 +1,43 @@
+.table-head {
+    background-image: linear-gradient(white, orange);
+}
+
+.read {
+    background-image: linear-gradient(white, green);
+}
+
+.in-progress {
+    background-image: linear-gradient(white, yellow);
+}
+
+.to-read {
+    background-image: linear-gradient(white, red);
+}
+
+span {
+    display: inline-block;
+}
+
+.read .status {
+    border: 0.1em solid green;
+    background-image: lightgreen;
+}
+
+.in-progress .status {
+    border: 0.1em solid yellow;
+    background-image: lightyellow;
+}
+
+.to-read .status {
+    border: 0.1em solid red;
+    background-image: pink;
+}
+
+.rate span {
+    border: 0.1em solid gray;
+    border-radius: 50%;
+    margin: 0;
+    height: 50%;
+    width: 0;
+    background-color: orange;
+}
