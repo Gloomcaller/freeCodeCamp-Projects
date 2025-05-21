@@ -1,65 +1,59 @@
-[class="table-head"] {
-    background-image: linear-gradient(#f8f9fa, #ffa500);
-}
-
 tr[class="read"] {
-    background-image: linear-gradient(#ffffff, #d4edda);
+    background-image: linear-gradient(white, lightgreen);
 }
 
 tr[class="to-read"] {
-    background-image: linear-gradient(#ffffff, #f8d7da);
+    background-image: linear-gradient(white, pink);
 }
 
 tr[class="in-progress"] {
-    background-image: linear-gradient(#ffffff, #fff3cd);
+    background-image: linear-gradient(white, lightyellow);
 }
 
-tr[class="read"] [class="status"] {
-    border: 2px solid #28a745;
+tr[class="read"] span[class="status"] {
+    border: 2px solid green;
     background-image: linear-gradient(to bottom, #d4edda, #c3e6cb);
 }
 
-tr[class="to-read"] [class="status"] {
-    border: 2px solid #dc3545;
+tr[class="to-read"] span[class="status"] {
+    border: 2px solid red;
     background-image: linear-gradient(to bottom, #f8d7da, #f5c6cb);
 }
 
-tr[class="in-progress"] [class="status"] {
-    border: 2px solid #ffc107;
+tr[class="in-progress"] span[class="status"] {
+    border: 2px solid orange;
     background-image: linear-gradient(to bottom, #fff3cd, #ffeeba);
 }
 
-[class="status"],
-[class^="rate"],
-[class*=" rate"] {
+span[class="status"],
+span[class^="rate"] {
+    display: inline-block;
     height: 20px;
     width: auto;
     padding: 5px 10px;
-    display: inline-block;
-    border-radius: 5px;
 }
 
-[class^="rate"]>span,
-[class*=" rate"]>span {
+span[class^="rate"]>span {
+    display: inline-block;
     border: 1px solid #6c757d;
     border-radius: 50%;
     margin: 0 2px;
     height: 15px;
     width: 15px;
     background-color: #e9ecef;
-    display: inline-block;
 }
 
-[class*="one"]>span:nth-child(1) {
+
+span[class*="one"]>span:nth-of-type(1) {
     background-image: linear-gradient(to bottom, #ffc107, #fd7e14);
 }
 
-[class*="two"]>span:nth-child(1),
-[class*="two"]>span:nth-child(2) {
+span[class*="two"]>span:nth-of-type(1),
+span[class*="two"]>span:nth-of-type(2) {
     background-image: linear-gradient(to bottom, #ffc107, #fd7e14);
 }
 
-[class*="three"]>span {
+span[class*="three"]>span {
     background-image: linear-gradient(to bottom, #ffc107, #fd7e14);
 }
 
@@ -73,7 +67,7 @@ th,
 td {
     padding: 12px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid grey;
 }
 
 th {
@@ -83,4 +77,8 @@ th {
 h1 {
     text-align: center;
     color: #333;
+}
+
+span {
+    display: inline-block;
 }
