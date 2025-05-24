@@ -1,0 +1,32 @@
+:root {
+    --color0: rgb(242, 210, 189);
+    --color1: rgb(251, 206, 177);
+    --color2: rgb(218, 160, 109);
+    --color3: rgb(255, 191, 0);
+    --color4: rgb(255, 172, 28);
+    --color5: rgb(205, 127, 50);
+}
+
+.available-0 {
+    background-color: var(--color0);
+}
+
+.available-1 {
+    background-color: var(--color1);
+}
+
+.available-2 {
+    background-color: var(--color2);
+}
+
+.available-3 {
+    background-color: var(--color3);
+}
+
+.available-4 {
+    background-color: var(--color4);
+}
+
+.available-5 {
+    background-color: var(--color5);
+}
