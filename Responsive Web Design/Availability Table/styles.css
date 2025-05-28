@@ -10,6 +10,52 @@
     --dashed-border: 1px dashed black;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:
+        linear-gradient(217deg, var(--color0) 0%, rgba(255, 218, 185, 0) 70.71%),
+        linear-gradient(127deg, var(--color2) 0%, rgba(255, 165, 0, 0) 70.71%),
+        linear-gradient(336deg, var(--color4) 0%, rgba(204, 85, 0, 0) 70.71%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgb(235, 229, 229);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border: 0.1rem black solid;
+    border-radius: 1rem;
+    width: 40vw;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: var(--solid-border);
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
 .sharp td {
     border-bottom: var(--solid-border);
 }
@@ -42,14 +88,36 @@
     background-color: var(--color5);
 }
 
+#legend {
+    margin-top: 1.5rem;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
 #legend-gradient {
-    background-image: linear-gradient(right,
+    background-image: linear-gradient(to right,
             var(--color0) 0% 16%,
             var(--color1) 16% 33%,
             var(--color2) 33% 50%,
             var(--color3) 50% 66%,
             var(--color4) 66% 83%,
             var(--color5) 83% 100%);
-    height: 20px;
+    height: 30px;
     width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 0.1rem black solid;
+}
+
+.legend-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+}
+
+td:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
 }
