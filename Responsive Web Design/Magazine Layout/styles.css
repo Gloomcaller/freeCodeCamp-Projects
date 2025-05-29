@@ -9,6 +9,8 @@ body {
         linear-gradient(217deg, #3f87a6, rgba(255, 0, 0, 0) 70.71%),
         linear-gradient(127deg, #ebf8e1, rgba(0, 255, 0, 0) 70.71%),
         linear-gradient(336deg, #f69d3c, rgba(0, 0, 255, 0) 70.71%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
 }
 
 .magazine-cover {
@@ -32,8 +34,23 @@ body {
     text-align: center;
 }
 
+.title h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
 .feature-article {
     grid-area: feature-article;
+}
+
+.feature-article h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.feature-article p {
+    font-size: 2rem;
+    line-height: 1.5;
 }
 
 .small-article1 {
@@ -42,6 +59,18 @@ body {
 
 .small-article2 {
     grid-area: small-article2;
+}
+
+.small-article1 h3,
+.small-article2 h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.small-article1 p,
+.small-article2 p {
+    font-size: 1rem;
+    line-height: 1rem;
 }
 
 .cover-image {
