@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background:
+        linear-gradient(217deg, #3f87a6, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, #ebf8e1, rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, #f69d3c, rgba(0, 0, 255, 0) 70.71%);
+}
+
+.magazine-cover {
+    background-color: whitesmoke;
+    width: 80%;
+    border: 2px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    grid-template-areas:
+        "title title title"
+        "feature-article feature-article cover-image"
+        "small-article1 small-article2 cover-image";
+    gap: 10px;
+    padding: 20px;
+}
+
+.title {
+    grid-area: title;
+    width: 100%;
+    text-align: center;
+}
+
+.feature-article {
+    grid-area: feature-article;
+}
+
+.small-article1 {
+    grid-area: small-article1;
+}
+
+.small-article2 {
+    grid-area: small-article2;
+}
+
+.cover-image {
+    grid-area: cover-image;
+    align-self: stretch;
+    object-fit: cover;
+    width: 100%;
+}
