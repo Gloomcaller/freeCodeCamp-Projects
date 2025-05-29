@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space {
+    align-self: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.earth {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: green;
+}
+
+.orbit {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    animation: orbit 5s linear infinite;
+}
+
+.moon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: gray;
+}
+
+@keyframes orbit {
+    0% {
+        transform: rotate(0deg) translate(-50%, -50%);
+    }
+
+    100% {
+        transform: rotate(360deg) translate(-50%, -50%);
+    }
+}
