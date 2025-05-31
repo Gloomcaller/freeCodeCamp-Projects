@@ -3,9 +3,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 10rem;
     padding: 0;
-    background:
+    background-image:
         linear-gradient(217deg, #3f87a6, rgba(255, 0, 0, 0) 70.71%),
         linear-gradient(127deg, #ebf8e1, rgba(0, 255, 0, 0) 70.71%),
         linear-gradient(336deg, #f69d3c, rgba(0, 0, 255, 0) 70.71%);
@@ -19,7 +19,7 @@ body {
     border: 2px solid gray;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto 0.5fr 1fr;
     grid-template-areas:
         "title title title"
         "feature-article feature-article cover-image"
@@ -50,7 +50,7 @@ body {
 
 .feature-article p {
     font-size: 2rem;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 .small-article1 {
@@ -78,4 +78,13 @@ body {
     align-self: stretch;
     object-fit: cover;
     width: 100%;
+}
+
+.ital {
+    font-style: italic;
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
