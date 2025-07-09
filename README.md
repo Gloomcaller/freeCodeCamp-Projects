@@ -89,7 +89,7 @@ Also, the code for the Foundational C# certification can be found in my [Foundat
 
 ## License
 
-This repository is licensed under the MIT License. See the `LICENSE` file for more details.
+This repository is licensed under the BSD-3-Clause License. See the `LICENSE` file for more details.
 
 ## Acknowledgments
 
