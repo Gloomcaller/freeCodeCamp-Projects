@@ -1,13 +1,7 @@
 # freeCodeCamp Projects
 
-Welcome to my repository for projects completed as part of the freeCodeCamp curriculum. This repository showcases various projects that highlight the skills and concepts I’ve learned throughout the program.
-
-## Recent Update to freeCodeCamp !
-
-All of the most recent certificates have been moved to the "archived coursework" section.
-The team at freeCodeCamp is working on making their **Certified Full Stack Developer Curriculum** certification course.
-I will be updating all of the sections as I work through this new and updated course since it's a combination of the first 3 courses currently.
-If possible, I will try to do both the Full Stack course and the separate related certifications just so I can have them both under the same repository.
+Welcome to my repository for projects completed as part of the freeCodeCamp curriculum.
+This repository showcases various projects that highlight the skills and concepts I’ve learned throughout various certifications.
 
 ## Purpose
 
@@ -22,13 +16,13 @@ The primary objective of this repository is to:
 Each project in this repository corresponds to a certification or module from the freeCodeCamp curriculum.
 The projects are organized into folders based on the following categories:
 
-- **Responsive Web Design**: Demonstrates proficiency in HTML and CSS for building responsive layouts.
-- **JavaScript Algorithms and Data Structures**: Showcases problem-solving skills and algorithmic thinking using JavaScript.
-- **Front End Development Libraries**: In progress.
-- **Data Visualization**: In progress.
-- **Relational Databases**: In progress.
-- **Backend Development and APIs**: In progress.
-- **Certified Full Stack Developer Curriculum**: In progress.
+- **Responsive Web Design**: HTML and CSS for responsive layouts
+- **JavaScript Algorithms and Data Structures**: Problem-solving with JavaScript
+- **Front End Development Libraries**: *In progress*
+- **Data Visualization**: *In progress*
+- **Relational Databases**: *In progress*
+- **Backend Development and APIs**: *In progress*
+- **Certified Full Stack Developer Curriculum**: *Under construction by freeCodeCamp*
 
 Each folder contains:
 
@@ -39,9 +33,9 @@ Each folder contains:
 
 The projects in this repository utilize a range of technologies, including but not limited to:
 
-- **Frontend**: HTML, CSS, JavaScript.
-- **Backend**: In progress.
-- **Data Visualization**: In progress.
+- **Frontend**: HTML, CSS, JavaScript, React.
+- **Backend**: *In progress*
+- **Data Visualization**: *In progress*
 
 ## Downloading and Cloning
 
@@ -57,13 +51,18 @@ If any of the projects later on require more than this to set up, instructions w
 
 Below are the certifications I have earned from freeCodeCamp:
 
-- [Responsive Web Design](https://www.freecodecamp.org/certification/Gloomcaller/responsive-web-design)
-- [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/Gloomcaller/javascript-algorithms-and-data-structures-v8)
+- [Responsive Web Design](Currently, undergoing updates.)
+- [JavaScript Algorithms and Data Structures](Currently, undergoing updates.)
 
-Also, the code for the Foundational C# certification can be found in my [Foundational-CSharp](https://github.com/Gloomcaller/Foundational-CSharp) repository.
-Since this certification is a collaboration of freeCodeCamp and Microsoft, I wanted to keep it separated from the main freeCodeCamp curriculum.
+This Microsoft collaboration certification has its own dedicated repository:
 
-- [Foundational C# with Microsoft](https://www.freecodecamp.org/certification/Gloomcaller/foundational-c-sharp-with-microsoft)
+- [Foundational-CSharp](https://github.com/Gloomcaller/Foundational-CSharp)  
+- [Foundational C# with Microsoft](https://www.freecodecamp.org/certification/gloomcaller/foundational-c-sharp-with-microsoft)
+
+These certifications have since been updated or replaced by the issuer with newer versions.
+
+- [Responsive Web Design](https://www.freecodecamp.org/certification/gloomcaller/responsive-web-design)
+- [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/gloomcaller/javascript-algorithms-and-data-structures-v8)
 
 More certifications will be added as I complete them.
 
