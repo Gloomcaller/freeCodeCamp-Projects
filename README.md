@@ -51,18 +51,18 @@ If any of the projects later on require more than this to set up, instructions w
 
 Below are the certifications I have earned from freeCodeCamp:
 
-- [Responsive Web Design](Currently, undergoing updates.)
-- [JavaScript Algorithms and Data Structures](Currently, undergoing updates.)
+- [Responsive Web Design] (Currently, undergoing updates.)
+- [JavaScript Algorithms and Data Structures] (Currently, undergoing updates.)
 
 This Microsoft collaboration certification has its own dedicated repository:
 
-- [Foundational-CSharp](https://github.com/Gloomcaller/Foundational-CSharp)  
+- [Foundational-CSharp](https://github.com/Gloomcaller/Foundational-CSharp)
 - [Foundational C# with Microsoft](https://www.freecodecamp.org/certification/gloomcaller/foundational-c-sharp-with-microsoft)
 
 These certifications have since been updated or replaced by the issuer with newer versions.
 
-- [Responsive Web Design](https://www.freecodecamp.org/certification/gloomcaller/responsive-web-design)
-- [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/gloomcaller/javascript-algorithms-and-data-structures-v8)
+- [Legacy Responsive Web Design](https://www.freecodecamp.org/certification/gloomcaller/responsive-web-design)
+- [Legacy JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/gloomcaller/javascript-algorithms-and-data-structures-v8)
 
 More certifications will be added as I complete them.
 
