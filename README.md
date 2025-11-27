@@ -51,8 +51,8 @@ If any of the projects later on require more than this to set up, instructions w
 
 Below are the certifications I have earned from freeCodeCamp:
 
-- [Responsive Web Design] *(Currently, undergoing updates)*
-- [JavaScript Algorithms and Data Structures] *(Currently, undergoing updates)*
+- [Responsive Web Design](https://www.freecodecamp.org/certification/gloomcaller/responsive-web-design-v9)
+- [JavaScript Algorithms and Data Structures] *(Currently, in progress)*
 
 This Microsoft collaboration certification has its own dedicated repository:
 
