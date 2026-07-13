@@ -19,7 +19,7 @@ The projects are organized into folders based on the following categories:
 - **Responsive Web Design**: HTML and CSS for responsive layouts
 - **JavaScript Algorithms and Data Structures**: Problem-solving with JavaScript
 - **Front End Development Libraries**: *In progress*
-- **Data Visualization**: *In progress*
+- **Python**: *In progress*
 - **Relational Databases**: *In progress*
 - **Backend Development and APIs**: *In progress*
 - **Certified Full Stack Developer Curriculum**: *Under construction by freeCodeCamp*
