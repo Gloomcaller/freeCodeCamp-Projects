@@ -59,7 +59,7 @@ This Microsoft collaboration certification has its own dedicated repository:
 - [Foundational-CSharp](https://github.com/Gloomcaller/Foundational-CSharp)
 - [Foundational C# with Microsoft](https://www.freecodecamp.org/certification/gloomcaller/foundational-c-sharp-with-microsoft)
 
-These certifications have since been updated or replaced by the issuer with newer versions.
+These certifications have since been updated or replaced by the issuer with newer versions:
 
 - [Legacy Responsive Web Design](https://www.freecodecamp.org/certification/gloomcaller/responsive-web-design)
 - [Legacy JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/gloomcaller/javascript-algorithms-and-data-structures-v8)
